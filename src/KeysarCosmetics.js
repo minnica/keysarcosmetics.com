@@ -1,5 +1,6 @@
 import { LitElement, html } from 'lit';
 import './index.css';
+import '@web-components-features/feature-sales-management-crud';
 
 export class KeysarCosmetics extends LitElement {
   static get properties() {
@@ -18,7 +19,10 @@ export class KeysarCosmetics extends LitElement {
   }
 
   render() {
-    return html`<div class="bg-red-500">${this.test}</div>`;
+    return html`<div class="bg-red-500">${this.test}</div>
+    <feature-sales-management-crud></feature-sales-management-crud>
+    `;
+   
   }
 }
 customElements.define('keysar-cosmetics', KeysarCosmetics);

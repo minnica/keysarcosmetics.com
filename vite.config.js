@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [tailwindcss()],
   resolve: {
     alias: {
-      '@components': path.resolve(__dirname, 'components'),
+      '@components': path.resolve(__dirname, 'node_modules/@web-components-features/feature-sales-management-crud/'),
     },
   },
   server: {
