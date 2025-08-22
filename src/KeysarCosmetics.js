@@ -1,7 +1,7 @@
 import { LitElement, html } from 'lit';
 import './index.css';
-import '@web-components-features/feature-sales-management-crud/src/FeatureSalesManagementCrud.js';
-import '@web-components-features/feature-login/src/FeatureLogin.js';
+import '../node_modules/@web-components-features/feature-sales-management-crud/src/FeatureSalesManagementCrud.js';
+import '../node_modules/@web-components-features/feature-login/src/FeatureLogin.js';
 
 export class KeysarCosmetics extends LitElement {
   static get properties() {
