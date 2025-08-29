@@ -17,8 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
-    "@web-components-features/feature-login": "github:minnica/login-front#92d8bb9965d881717b45626b9d972ed8a4583d1c",
-    "@web-components-features/feature-sales-management-crud": "github:GaliGara/Project-RG#14885a68f8126c3573ac62b01bf086091ac2b0ef",
+    "@web-components-features/feature-login": "github:minnica/login-front#1295e4b30eb74cb72ac28f1e387ecddc00b5a994",
+    "@web-components-features/feature-sales-management-crud": "github:GaliGara/Project-RG#24d23b42eeae4158c1c9cc997604e63057d00db5",
     "lit": "^3.3.0"
   },
   "devDependencies": {
